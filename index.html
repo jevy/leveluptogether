@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LevelUpTogether - Quickjack Solutions</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/typicons/typicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+		    <link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/tooltipster.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    </head>
+
+    <body>
+    
+        <!-- Loader -->
+    	<div class="loader">
+    		<div class="loader-img"></div>
+    	</div>
+				
+        <!-- Top content -->
+        <div class="top-content">
+        	
+        	<!-- Top menu -->
+			<nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html">LevelUpTogether - Quickjack Solutions</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="scroll-link" href="#how-it-works">How it works</a></li>
+              <li><a class="scroll-link" href="#pricing">Cost</a></li>
+							<li><a class="scroll-link" href="#about">The story</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 text">
+                            <h1 class="wow fadeInLeftBig">Level Up <strong>Together</strong></h1>
+                            <div class="description wow fadeInLeftBig">
+                            	<p>
+	                            	Sick of struggling alone? Journey daily with people like you through one email you send a day. Launching in August.
+                            	</p>
+                              <p>
+                                Journeying with others who are going through the same highs and lows, who are vulnerable and wanting to help each other out are ideal for this.
+                              </p>
+                            </div>
+                            <div class="top-big-link wow fadeInUp">
+                            	<a class="btn btn-link-2 scroll-link" href="#how-it-works">How it works</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 form-box wow fadeInUp">
+                          <div class="subscribe-shake">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>Signup</h3>
+                            	<p>Fill in the form below to sign up:</p>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<span aria-hidden="true" class="typcn typcn-mail"></span>
+                        		</div>
+                            </div>
+                            <div class="form-bottom contact-form subscribe">
+
+                              <!-- Sign up form -->
+    			                    <form role="form" action="" method="post">
+    			                    	<div class="form-group">
+    			                    		<label class="sr-only" for="contact-email">Email</label>
+    			                        <input type="text" name="EMAIL" placeholder="Email" class="form-control" id="contact-email">
+                                </div>
+
+  			                        <div class="form-group">
+  			                        	<label class="sr-only" for="contact-first-name">First name</label>
+  			                        	<input type="text" name="FNAME" placeholder="First name" class="form-control" id="contact-first-name">
+  			                        </div>
+
+                                <div class="form-group">
+                                  <label class="sr-only" for="contact-position">What do you do?</label>
+                                  <select class="form-control" name="POSITION" id="contact-position">
+                                    <option value="" disabled selected>What do you do?</option>
+                                    <option value="Consultant">Consultant</option>
+                                    <option value="Solo-Founder">Solo-Founder</option>
+                                  </select>
+                                </div>
+
+                                <div class="form-group">
+                                  <label class="sr-only" for="contact-revenue">Average monthly take home revenue</label>
+                                  <select class="form-control" name="REVENUE" id="contact-revenue" style="display: inline;">
+                                    <option value="" disabled selected>Average monthly take home revenue</option>
+                                    <option value="Less than $1000/m">Less than $1000/m</option>
+                                    <option value="$1001 – $4000/m">$1001 – $4000/m</option>
+                                    <option value="$4001 – $8000/m">$4001 – $8000/m</option>
+                                    <option value="$8001 – $20000/m">$8001 – $20000/m</option>
+                                    <option value="More than $2001/m">More than $2001/m</option>
+                                  </select><span class="hover-link" id="revenue-tooltip" title="It's important to be put into a team who are at your same level of business growth. This is a very rough indicator.">(?)</span>
+                                </div>
+
+                                <div class="error-message">You must choose a value from the "Average monthly take home revenue" dropdown.</div>
+
+  			                        <button type="submit" class="btn btn-signup">Signup</button>
+    			                    </form>
+
+                              <div class="success-message"></div>
+
+    		                    </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    		<!-- More features -->
+        <div class="more-features-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 more-features section-description wow fadeIn">
+	                    <h2>&nbsp;</h2>
+	                    <!--<div class="divider-1 wow fadeInUp"><span></span></div>-->
+	                </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- How it works -->
+        <div class="how-it-works-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 how-it-works section-description wow fadeIn">
+	                    <h2><span>How</span> It Works</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-pencil"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">1</span>
+	                	</div>
+	                    <h3>Apply</h3>
+	                    <p>With the specifics about your current situation.</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-group-outline"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">2</span>
+	                	</div>
+	                    <h3>Get teamed up</h3>
+	                    <p>With a team of 4 people just like you.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-messages"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">3</span>
+	                	</div>
+	                    <h3></h3>
+	                    <p>Your team each replies to the email we send you at the end of you work day with your successes and any difficulty you're currently having.</p>
+                    </div>
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-thumbs-up"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">4</span>
+	                	</div>
+	                    <h3></h3>
+	                    <p>The next morning, receive the collated version of everyone's daily activity. Then reply to encourage and keep accountable!</p>
+                    </div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- Pricing -->
+    <div class="pricing-container section-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 pricing section-description wow fadeIn">
+            <h2>Cost</h2>
+            <!--<div class="divider-1 wow fadeInUp"><span></span></div>-->
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-sm-4 pricing-box wow fadeInUp">
+        		<div class="pricing-box-inner"></div>
+          </div>
+
+          <div class="col-sm-4 pricing-box pricing-box wow fadeInDown">
+          	<div class="pricing-box-inner">
+          	  <div class="pricing-box-price">
+          		  <span>$ </span><strong>20</strong><span> / month</span>
+          	  </div>
+              <div class="pricing-box-sign-up">
+              	<a class="btn btn-link-1 scroll-link" href="#top-content">Signup</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 pricing-box wow fadeInUp">
+            <div class="pricing-box-inner"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+        
+        <div class="about-container testimonials-container section-container section-container-gray-bg">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12 testimonials section-description wow fadeIn">
+                      <h2><strong>The story</strong> behind the product</h2>
+                      <div class="divider-1 wow fadeInUp"><span></span></div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+                    <div role="tabpanel">
+                      <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="tab1">
+                          <div class="testimonial-image">
+                            <img src="assets/img/jevin.png" alt="" data-at2x="assets/img/jevin.png">
+                          </div>
+                          <div class="testimonial-text">
+                            <p>
+                              I have been doing solo-consulting for the past five years and ran my own startup before that. I had days where my wife would turn to me and ask: "are we okay?". While she knew me inside and out, she didn't understand the drive and sorrow of running my own venture. I have had multiple mastermind groups over the years and have found them very helpful in my growth.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 footer-social">
+                <a href="http://twitter.com/jevy" target="_blank"><span class="typcn typcn-social-twitter"></span></a>
+                <a href="http://plus.google.com/+JevinMaltais" target="_blank"><span class="typcn typcn-social-google-plus"></span></a>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 footer-copyright">
+                  &copy; 2015 <a href="http://quickjack.ca" target="_blank">Quickjack Conversions</a>.
+                </div>
+              </div>
+          </div>
+        </footer>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.tooltipster.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
+</html>
